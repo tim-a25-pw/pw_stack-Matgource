@@ -26,8 +26,13 @@
 @import 'elements/wrapper';
 
 // COMPONENTS
-@import 'components/icons';
+@import '../../node_modules/swiper/swiper-bundle';
 
+@import 'components/icons';
+@import 'components/header';
+@import 'components/hero';
+@import 'components/articles';
+@import 'components/carousel';
 // UTILITIES
 // Utilitaires et classes auxiliaires avec possibilité de remplacer tout ce qui précède, par exemple masquer les éléments de la page
 @import 'utilities/accessibility';
