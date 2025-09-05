@@ -13,10 +13,8 @@
     --swiper-pagination-color: var(--color-primary);
     --swiper-pagination-bullet-size: 31px;
     --swiper-pagination-bullet-inactive-color: var(--color-black) !important;
-    --swiper-pagination-bullet-inactive-opacity: 1 !important; 
+    --swiper-pagination-bullet-inactive-opacity: 1 !important;
     --swiper-pagination-bullet-horizontal-gap: 5px;
-
-
 
     border-radius: 100%;
     transition: all 0.4s ease-out;
@@ -26,15 +24,27 @@
     border-width: calc(var(--size, 20px) / 2);
 }
 
-.swiper-wrapper{
+.swiper-wrapper {
     max-height: 550px;
     position: relative;
 }
 
-.swiper{
-    img{
+.swiper {
+    img {
         object-fit: cover;
         width: 100%;
     }
 }
 
+.carousel {
+    h2 {
+        font-size: #{typo(50px, 50px)};
+        font-family: var(--font-primary);
+        font-weight: 600;
+        color: var(--color-black);
+        padding-top: 125px;
+        margin: 0;
+        text-align: end;
+        padding-bottom: 50px;
+    }
+}
